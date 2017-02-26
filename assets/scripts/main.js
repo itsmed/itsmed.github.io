@@ -5,10 +5,10 @@ $(document).ready(function() {
     $('nav').toggleClass('hidden');
   });
 
-  $('#main_background').scroll(function() {
-    var x = $(this).scrollTop();
-    $(this).css('background-position', '0% ' + parseInt(-x / 10) + 'px');
-});
+//   $('.parallax').scroll(function() {
+//     var x = $(this).scrollTop();
+//     $(this).css('background-position', '0% ' + parseInt(-x / 10) + 'px');
+// });
 });
 
 function checkWindow() {
