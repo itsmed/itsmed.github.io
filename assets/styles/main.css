@@ -3,6 +3,10 @@ body {
   color: #1C0227;
 }
 
+.hidden {
+  display: none;
+}
+
 
 /* Navigation */
 #nav_container {
@@ -42,6 +46,10 @@ body {
   nav {
     flex: 0 2 auto;
     align-self: center;
+  }
+
+  #nav_burger {
+    align-self: flex-start;
   }
 
   #main_content {
