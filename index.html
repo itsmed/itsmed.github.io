@@ -2,48 +2,56 @@
 <html>
 <head>
   <title>DJ</title>
-  <!-- For offline editing -->
-  <!-- <link rel="stylesheet" type="text/css" href="./offline_resources/bootstrap/dist/css/bootstrap.min.css" /> -->
-  <!-- End offline editing -->
-  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/styles/main.css" />
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <nav class="nav">
-        <ul id="nav_container" class="nav-pills nav-justified no_list_style">
-          <li role="presentation" style="margin: 1em">
-              <a href="https://twitter.com/dejonjgill">
-                <img class="nav_links" src="./assets/images/Twitter_Logo_White_On_Blue.png" />
-              </a>
-          </li>
-          <li role="presentation" style="margin: 1em">
-            <a href="https://github.com/itsmed/">
-              <img class="nav_links" src="./assets/images/Octocat.png">
-            </a>
-          </li>
-          <li role="presentation" style="margin: 1em">
-              <a href="https://www.linkedin.com/in/dejongill">
-                <img class="nav_links" src="./assets/images/Logo-2C-81px-R.png" style="height: 1.5em">
-              </a>
-          </li>
-          <li role="presentation" style="margin: 1em">
-               <div style="position: relative; top: 35px"><a href="mailto:dejonjgill@gmail.com">
-                <i class="fa fa-envelope fa-2x nav_links" style="margin: 0"></i>
-              </a></div>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+  <button id="nav_burger"><i class="fa fa-bars"></i></button>
+  <nav>
+    <ul id="nav_container" class="no_list_style">
+      <li role="presentation" class="nav_items">
+          <a href="https://twitter.com/dejonjgill">
+            <img class="nav_links" src="./assets/images/Twitter_Logo_White_On_Blue.png" />
+          </a>
+      </li>
+      <!-- 
+        <li href="...">
+          <img src="///\\\...\\" role="presentation" alt-"...">
+        </li>
+       -->
+      <li role="presentation" class="nav_items">
+        <a href="https://github.com/itsmed/">
+          <img class="nav_links" src="./assets/images/Octocat.png">
+        </a>
+      </li>
+      <li role="presentation" class="nav_items">
+          <a href="https://www.linkedin.com/in/dejongill">
+            <img class="nav_links" src="./assets/images/Logo-2C-81px-R.png" style="height: 1.5em; position: relative; top: 5px;">
+          </a>
+      </li>
+      <li role="presentation" class="nav_items">
+           <div style="position: relative; top: 35px"><a href="mailto:dejonjgill@gmail.com">
+            <i class="fa fa-envelope fa-2x nav_links" style="margin: 0"></i>
+            <!-- <p>hi</p> -->
+          </a></div>
+      </li>
+    </ul>
+  </nav>
+  <div id="nav_background"></div>
 
+  <div id="main_content">
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
   <!-- For offline editing -->
   <script type="text/javascript" src="./offline_resources/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="./offline_resources/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- End offline editing -->
-<!--   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script type="text/javascript" src="./assets/scripts/main.js"></script>
 </body>
 </html>
