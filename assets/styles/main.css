@@ -3,6 +3,16 @@ body {
   color: #1C0227;
 }
 
+a:hover {
+  background-color: #F0D649;
+  color: #F0D649;
+}
+
+a:active {
+  background-color: #F4E74D;
+  color: #F4E74D;
+}
+
 .hidden {
   display: none;
 }
@@ -29,15 +39,48 @@ body {
 }
 
 #nav_background {
-  background-color: #F0D649;
   height: 4em;
   position: relative;
-  top: -5.5em;
+  top: -4.5em;
   z-index: -9;
 }
 
+#email_link {
+  position: relative;
+  top: 45px;
+  right: 30px;
+}
 
-@media only screen and (max-width: 767px) {
+.parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#main_background {
+  height: 400px;
+  background-image: url("../images/zion.jpg");
+}
+
+#second_background {
+  height: 400px;
+  background-image: url("../images/zion.jpg");
+}
+
+#third_background {
+  height: 500px;
+  background-image: url("../images/cyndi-and-chloe.jpg");
+  background-attachment: fixed;
+  background-position: top;
+}
+
+#fourth_background {
+  height: 600px;
+  background-image: url("../images/cyndi.jpg");
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   body {
     display: flex;
     flex-direction: column;
@@ -62,5 +105,25 @@ body {
 
   #nav_background {
     display: none;
+  }
+
+  #email_link {
+    right: 0;
+  }
+
+  #github {
+    height: 3em;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  #second_background {
+    background-image: url("../images/ZionBAndW.jpg")
+  }
+
+  #third_background {
+    background-position: left;
   }
 }
