@@ -77,6 +77,10 @@ a:active {
   background-image: url("../images/zion.jpg");
 }
 
+#profile > img {
+  box-shadow: px 4px;
+}
+
 #second_background {
   height: 400px;
   background-image: url("../images/zion.jpg");
@@ -136,11 +140,6 @@ a:active {
   #profile > img {
     position: relative;
     right: 80px;
-  }
-
-  #main_background {
-    opacity: 0.7;
-    font-weight: bolder;
   }
 
   #second_background {
