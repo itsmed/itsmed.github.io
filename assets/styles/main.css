@@ -1,4 +1,7 @@
-
+body {
+  background-color: #668AA7;
+  color: #1C0227;
+}
 
 /* Navigation */
 #nav_container {
@@ -6,7 +9,7 @@
 }
 
 .nav_links {
-  width: 5em;
+  height: 2.5em;
 }
 
 .no_list_style {
