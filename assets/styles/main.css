@@ -1,6 +1,6 @@
 body {
-  background-color: #668AA7;
-  color: #1C0227;
+  background-color: #E2E2E2;
+  /*color: #1C0227;*/
 }
 
 a:hover {
@@ -18,8 +18,14 @@ a:active {
 }
 
 #main_header {
+  height: 250px;
   display: flex;
   justify-content: flex-end;
+  background-color: #6E7271;
+}
+
+.intro_content {
+  margin-top: 5%;
 }
 
 #profile {
@@ -127,6 +133,16 @@ a:active {
     background-attachment: scroll;
   }
 
+  #profile > img {
+    position: relative;
+    right: 80px;
+  }
+
+  #main_background {
+    opacity: 0.7;
+    font-weight: bolder;
+  }
+
   #second_background {
     background-image: url("../images/ZionBAndW.jpg")
   }
@@ -138,4 +154,14 @@ a:active {
   #main_header {
     flex-direction: column;
   }
+
+  #footer_nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#footer_nav {
+  display: flex;
+  justify-content: space-between;
 }
