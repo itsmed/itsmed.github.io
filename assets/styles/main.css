@@ -17,6 +17,15 @@ a:active {
   display: none;
 }
 
+#main_header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#profile {
+  flex: 1;
+}
+
 /* Navigation */
 #nav_container {
   margin-top: 1.5em;
@@ -79,6 +88,9 @@ a:active {
   background-image: url("../images/cyndi.jpg");
 }
 
+/*  #main_content {
+    flex: 1;
+  }*/
 @media (min-width: 320px) and (max-width: 767px) {
   body {
     display: flex;
@@ -94,9 +106,6 @@ a:active {
     align-self: flex-start;
   }
 
-  #main_content {
-    flex: 1;
-  }
 
   #nav_container {
     flex-direction: column;
@@ -124,5 +133,9 @@ a:active {
 
   #third_background {
     background-position: left;
+  }
+
+  #main_header {
+    flex-direction: column;
   }
 }
