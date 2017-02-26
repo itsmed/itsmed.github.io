@@ -1,0 +1,14 @@
+
+
+/* Navigation */
+#nav_container {
+  margin-top: 1.5em;
+}
+
+.nav_links {
+  width: 5em;
+}
+
+.no_list_style {
+  list-style: none;
+}

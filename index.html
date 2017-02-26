@@ -2,12 +2,51 @@
 <html>
 <head>
   <title>DJ</title>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <!-- For offline editing -->
+  <link rel="stylesheet" type="text/css" href="./offline_resources/bootstrap/dist/css/bootstrap.min.css" />
+  <!-- End offline editing -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.css" />
 </head>
 <body>
-  <h1>Hello World</h1>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <div class="container">
+    <div class="row" id="nav_container">
+      <nav class="nav no_list_style">
+        <ul class="nav-pills nav-justified">
+          <li role="presentation">
+            <div>
+              <a href="https://twitter.com/dejonjgill"><img class="nav_links" src="./assets/images/Twitter_Logo_White_On_Blue.png" /></a>
+              <span class="text-center">Twitter</span>
+            </div>
+          </li>
+          <li role="presentation">
+          <div>
+            <a href="https://twitter.com/dejonjgill"><img class="nav_links" src="./assets/images/Octocat.png"></a>
+            <span class="text-center">Github</span>
+          </div>
+          </li>
+          <li role="presentation">
+            <div>
+              <a href="https://twitter.com/dejonjgill"><img class="nav_links" src="./assets/images/Logo-2C-81px-R.png"></a>
+              <span class="text-center">LinkedIn</span>          
+            </div>
+          </li>
+          <li role="presentation">
+            <div>
+              <a href="https://twitter.com/dejonjgill"><i class="glyphicon glyphicon-send nav_links"></i></a>
+              <span class="text-center">Mail</span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- For offline editing -->
+  <script type="text/javascript" src="./offline_resources/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./offline_resources/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- End offline editing -->
+<!--   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
 </html>
