@@ -59,6 +59,12 @@ a:active {
   z-index: -9;
 }
 
+#quote {
+  position: relative;
+  left: 30%;
+  top: 30%;
+}
+
 #email_link {
   position: relative;
   top: 45px;
@@ -98,9 +104,6 @@ a:active {
   background-image: url("../images/cyndi.jpg");
 }
 
-/*  #main_content {
-    flex: 1;
-  }*/
 @media (min-width: 320px) and (max-width: 767px) {
   body {
     display: flex;
@@ -110,6 +113,10 @@ a:active {
   nav {
     flex: 0 2 auto;
     align-self: center;
+  }
+
+  #quote {
+    left: 0;
   }
 
   #nav_burger {
