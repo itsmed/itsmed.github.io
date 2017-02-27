@@ -31,7 +31,6 @@ a:active {
 }
 
 .linkedin {
-  height: 1.5em;
   position: relative;
   top: 5px;
 }
@@ -53,9 +52,6 @@ a:active {
   flex: 1;
 }
 
-#profile {
-  flex: 1;
-}
 
 /* Navigation */
 .nav_links {
@@ -83,9 +79,7 @@ a:active {
 }
 
 #nav_background {
-  /*height: 4em;*/
   position: relative;
-  /*top: -3.5em;*/
   z-index: -9;
 }
 
