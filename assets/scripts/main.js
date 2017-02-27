@@ -7,7 +7,6 @@ $(document).ready(function() {
 });
 
 function checkWindow() {
-  console.log(document.body.clientWidth);
   if (document.body.clientWidth <= 767) {
     $('nav').addClass('hidden');
     $('#nav_burger').removeClass('hidden');
