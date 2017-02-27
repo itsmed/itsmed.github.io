@@ -1,6 +1,8 @@
 body {
   background-color: #E2E2E2;
-  /*color: #1C0227;*/
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu Mono"
 }
 
 a:hover {
@@ -33,10 +35,6 @@ a:active {
 }
 
 /* Navigation */
-#nav_container {
-  margin-top: 1.5em;
-}
-
 .nav_links {
   height: 2.5em;
   margin-top: 2.75em;
@@ -84,7 +82,7 @@ a:active {
 }
 
 #profile > img {
-  box-shadow: px 4px;
+  box-shadow: 2px 4px;
 }
 
 #second_background {
