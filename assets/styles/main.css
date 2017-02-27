@@ -37,7 +37,7 @@ a:active {
 /* Navigation */
 .nav_links {
   height: 2.5em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .no_list_style {
@@ -51,9 +51,9 @@ a:active {
 }
 
 #nav_background {
-  height: 4em;
+  /*height: 4em;*/
   position: relative;
-  top: -4.5em;
+  /*top: -3.5em;*/
   z-index: -9;
 }
 
