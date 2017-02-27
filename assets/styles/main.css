@@ -30,6 +30,18 @@ a:active {
   margin-top: 5%;
 }
 
+#linkedin {
+  height: 1.5em;
+  position: relative;
+  top: 5px;
+}
+
+#email {
+   margin: 0;
+   position: relative;
+   bottom: 0.95em;
+}
+
 #profile {
   flex: 1;
 }
