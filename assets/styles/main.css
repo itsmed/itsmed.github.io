@@ -42,6 +42,10 @@ a:active {
    bottom: 0.95em;
 }
 
+.single_flex {
+  flex: 1;
+}
+
 #profile {
   flex: 1;
 }
@@ -54,7 +58,11 @@ a:active {
 
 .no_list_style {
   list-style: none;
-  flex-basis: auto;
+}
+
+#profile_image {
+  width: 200px;
+  margin-top: 15%;
 }
 
 #nav_container {
