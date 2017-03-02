@@ -89,7 +89,7 @@ a:active {
 
 .email_link {
   top: 45px;
-  left: 5px;
+  right: 30px;
 }
 
 .parallax {
@@ -158,7 +158,7 @@ a:active {
     display: none;
   }
 
-  #email_link {
+  .email_link {
     right: 0;
   }
 
