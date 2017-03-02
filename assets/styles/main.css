@@ -30,6 +30,10 @@ a:active {
   margin-top: 5%;
 }
 
+.relative_element {
+  position: relative;
+}
+
 .linkedin {
   position: relative;
   top: 5px;
