@@ -35,19 +35,16 @@ a:active {
 }
 
 .linkedin {
-  position: relative;
   top: 5px;
 }
 
 #email {
    margin: 0;
-   position: relative;
    bottom: 0.95em;
 }
 
 #footer_email {
   margin: 0;
-  position: relative;
   bottom: 0.85em;
   right: 0.1em;
 }
@@ -55,7 +52,6 @@ a:active {
 .single_flex {
   flex: 1;
 }
-
 
 /* Navigation */
 .nav_links {
@@ -83,20 +79,17 @@ a:active {
 }
 
 #nav_background {
-  position: relative;
   z-index: -9;
 }
 
 #quote {
-  position: relative;
   left: 30%;
   top: 30%;
 }
 
-#email_link {
-  position: relative;
+.email_link {
   top: 45px;
-  right: 30px;
+  left: 5px;
 }
 
 .parallax {
@@ -130,6 +123,11 @@ a:active {
 #fourth_background {
   height: 600px;
   background-image: url("../images/cyndi.jpg");
+}
+
+#footer_nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -202,9 +200,4 @@ a:active {
     color: #E2E2E2;
   }
 
-}
-
-#footer_nav {
-  display: flex;
-  justify-content: space-between;
 }
